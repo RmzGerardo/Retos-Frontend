@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#5a62bf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            transition: 1s;
+        }
+    </style>
+
+<head>
+    <link rel="shortcut icon" href="/favicon.ico">      <!-- HTML4 -->
+    <link rel="icon" sizes="64x64" href="/favicon.png"> <!-- HTML5 -->
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="/apple-touch-icon-180x180.png">         <!-- iPhone/iPad -->
+    <meta name="msapplication-TileImage"
+          content="/mstile-144x144.png">                <!-- Windows Phone -->
+  </head>
+
+</head>
+<body>
+    Hola, quiero resaltar esta <strong>palabra</strong>.
+    
+
+    <div><br>
+        <img src="app.jpg"
+             alt="Gandalf el gris, utilizando un portátil para consultar su correo."
+             title="LOGO DE APPLE MUSIC!" />
+        <p>Mantén el ratón unos instantes sobre la imagen anterior.</p>
+      </div>
+
+
+    <div class="title">
+        <h1>Manz.dev</h1>
+        <h2>Tu streamer de código de confianza</h2>
+        <p>En la web de <a href="https://manz.dev/">Manz.dev</a> encontrarás más información.</p>
+        <hr>
+        <p>En otro orden de cosas...</p>
+    </div>
+
+    <div class="movie-data">
+        <h2>Interstellar</h2>
+        <div class="description">
+          <p>
+            <strong>Interstellar</strong> es una película dirigida
+            por <strong>Christopher Nolan</strong>.
+          </p>
+        </div>
+      </div>
+
+    <div style="background-color: blue">Etiqueta div 1.</div>
+    <div style="background-color: blue">Etiqueta div 2.</div>
+      
+    <span style="background-color: red">Etiqueta span 1.</span>
+    <span style="background-color: red">Etiqueta span 2.</span>
+    
+    
+    <ul>
+        <li>Primer ítem.</li>
+        <li>Segundo ítem.</li>
+        <li>Tercer ítem.</li>
+    </ul>
+
+    <menu>
+        <li><button onclick="selectAll()">Seleccionar todo</li>
+        <li><button onclick="copy()">Copiar</li>
+        <li><button onclick="paste()">Pegar</li>
+    </menu>
+
+
+    <div>
+        function mensaje(str) {
+          console.log(str);
+        }
+    </div>
+        
+    <pre>
+        function mensaje(str) {
+          console.log(str);
+        }
+    </pre>
+
+    <pre>
+        <code class="language-javascript">
+          function mensaje(str) {
+            console.log(str);
+          }
+        </code>
+      </pre>
+
+      <script src="https://cdn.jsdelivr.net/npm/prismjs"></script>
+      <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-dracula.min.css">
+      <script type="module">
+        Prism.highlightAll();
+      </script>
+      
+      <pre>
+        <code class="language-javascript">
+      function mensaje(str) {
+        console.log(str);
+      }
+        </code>
+    </pre>
+
+
+    <pre class="language-javascript">
+        <code class="language-javascript">
+          <span class="token keyword">function</span>
+          <span class="token function">mensaje</span>
+          <span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+          <span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span>
+            <span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+            <span class="token punctuation">;</span>
+          <span class="token punctuation">}</span>
+        </code>
+    </pre>
+
+    <figure>
+        <img src="https://lenguajehtml.com/assets/logo.png" alt="Logotipo de HTML5">
+        <figcaption>Logotipo oficial del lenguaje de marcas HTML5.</figcaption>
+    </figure>
+
+    <video width="440" height="300" src="cody.mp4" poster="poster.png" preload="metadata" controls></video>
+
+    
+    <!-- <iframe src="https://www.youtube.com/watch?v=zkMwhLLN0gM" width="560" height="315">
+    </iframe> -->
+
+    <p>
+        Más información sobre <a href="/productos.pdf">productos informáticos</a>
+        [<a href="/productos.pdf" download>Descargar productos.pdf</a>].
+      </p>
+
+      <p><em>Javascript</em> es el mejor lenguaje de programación para la web.</p>
+      <p>Precio de subscripción: <s>5.99€</s> <strong>¡3.99€!</strong></p>
+    
+      <article>
+        <header>
+          <h1>Título del artículo</h1>
+          <p class="abstract">Pequeña introducción.</p>
+        </header>
+        <p class="content">Aquí va el texto del artículo en cuestión con sus detalles.</p>
+        <footer>
+          <p>Escrito por Manz.</p>
+        </footer>
+      </article>
+</body>
+</html>

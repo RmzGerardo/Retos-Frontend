@@ -1,0 +1,29 @@
+body {
+  margin: 0; /* Reset */
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  background: indigo;
+}
+
+.container2 {
+  width: 300px;
+  height: 200px;
+  background: indigo;
+  /* padding: 10px; */
+  margin: 1px;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background: grey;
+}
+
+.child {
+  width: 50%;
+  height: 100px;
+  background: rgb(139, 113, 157);
+}
