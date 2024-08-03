@@ -1,3 +1,6 @@
-# Este es el primer commit del codigo
+# Documentacion del codigo de retos de programacion.
 
-Lo subi para poder aprender git
+Se esta preparando archivos html, css y js para tener apuntes de estos.
+<br>
+
+Cada que se haga un cambio significativo se hara una subida al repositorio.
